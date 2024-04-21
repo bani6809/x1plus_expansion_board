@@ -4221,12 +4221,6 @@
 		(uuid "9e9e066c-8e4e-4ac4-953d-ce7fff238ffc")
 	)
 	(junction
-		(at 24.13 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f505991-7052-4b87-8b30-1def86029a98")
-	)
-	(junction
 		(at 24.13 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4291,12 +4285,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f38319ea-8118-4ee7-81d0-47eae5c72cdc")
-	)
-	(junction
-		(at 24.13 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd05a0ea-654d-472f-9bfc-480e7accaaae")
 	)
 	(junction
 		(at 248.92 109.22)
@@ -4406,16 +4394,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 87.63) (xy 33.02 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33db4d40-e5b3-48ba-9d38-c4a418686016")
-	)
-	(wire
-		(pts
 			(xy 243.84 83.82) (xy 251.46 83.82)
 		)
 		(stroke
@@ -4423,16 +4401,6 @@
 			(type default)
 		)
 		(uuid "341eea90-f71c-4c04-a170-bca4b995ad08")
-	)
-	(wire
-		(pts
-			(xy 21.59 87.63) (xy 24.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "372b5589-964b-4ce7-b46a-d2145182219f")
 	)
 	(wire
 		(pts
@@ -4493,16 +4461,6 @@
 			(type default)
 		)
 		(uuid "6d43dcb8-08ce-48e6-ad89-80f155c35e42")
-	)
-	(wire
-		(pts
-			(xy 21.59 110.49) (xy 24.13 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d61b511-9520-445a-b25b-db1e6ba7b399")
 	)
 	(wire
 		(pts
@@ -4593,16 +4551,6 @@
 			(type default)
 		)
 		(uuid "b519426e-a215-435e-80ad-c622f50fd1e3")
-	)
-	(wire
-		(pts
-			(xy 24.13 110.49) (xy 31.75 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6545721-787e-4cba-a8ca-bb8e6be517f4")
 	)
 	(wire
 		(pts
@@ -4918,28 +4866,6 @@
 			)
 		)
 	)
-	(global_label "USB3M"
-		(shape input)
-		(at 24.13 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05f5c3cb-5d76-4da9-a6f0-6e093ab23258")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "X1_USB_DP"
 		(shape input)
 		(at 279.4 40.64 180)
@@ -4975,50 +4901,6 @@
 		(uuid "0a5bb670-a96a-473b-9e9e-9dc609a32b2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.9008 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB3P"
-		(shape input)
-		(at 24.13 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0bdb2de5-d014-4815-b641-c59fbca5f647")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.8553 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP_5V"
-		(shape input)
-		(at 46.99 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cfdf152-4b25-4a4a-94ff-831ae608c4a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8694 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,50 +4972,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 31.75 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17dd0d6d-2caa-43f6-9b8d-4684f1bc758f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.6057 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB3P"
-		(shape input)
-		(at 31.75 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a775f04-13e7-4e39-ba1d-cc067725253b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.0247 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5270,6 +5108,28 @@
 			)
 		)
 	)
+	(global_label "X1_CAM_DP"
+		(shape input)
+		(at 59.69 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42c8e837-678b-47a8-9ce4-98e8871e1bd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0006 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBDP4"
 		(shape input)
 		(at 59.69 41.91 180)
@@ -5354,28 +5214,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X1_CAM_GND"
-		(shape input)
-		(at 252.73 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4cb0d74e-3968-4a09-a055-0e14994d5c1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.7101 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5534,28 +5372,6 @@
 			)
 		)
 	)
-	(global_label "USBDP4"
-		(shape input)
-		(at 46.99 184.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f8154b7-bc11-44d1-a7cd-58d1cd561343")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5347 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 259.08 88.9 270)
@@ -5574,28 +5390,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 33.02 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "719e319c-32bf-42c0-899b-57468b00fb52")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.8757 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5996,28 +5790,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 24.13 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0074a1d-03b5-4133-8386-81d7e7402df6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.2743 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "X1_USB_GND"
 		(shape input)
 		(at 279.4 43.18 180)
@@ -6040,50 +5812,6 @@
 			)
 		)
 	)
-	(global_label "USBDM5"
-		(shape input)
-		(at 59.69 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a689f2c6-a845-4780-966f-e0b31b4868ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.9639 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 31.75 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a932cae3-6e97-4913-bcd1-a8e3ce78fb85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.6057 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U2_FB"
 		(shape input)
 		(at 265.43 72.39 0)
@@ -6097,28 +5825,6 @@
 		(uuid "b0fb4da6-e871-4e29-bd70-f755abe87c45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.2814 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USBDM4"
-		(shape input)
-		(at 46.99 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4d9bec3-a441-4582-ab6a-f3277a99b43d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.7161 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,6 +5900,28 @@
 			)
 		)
 	)
+	(global_label "X1_CAM_DM"
+		(shape input)
+		(at 59.69 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca5ecb7b-05b1-4b2b-8f28-37c49ddc6562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.8192 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB1P"
 		(shape input)
 		(at 24.13 148.59 180)
@@ -6260,28 +5988,6 @@
 			)
 		)
 	)
-	(global_label "USBDP5"
-		(shape input)
-		(at 59.69 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d723d08a-e79a-497a-a58f-dfc4688af22f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.1453 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U2_SW"
 		(shape input)
 		(at 240.03 69.85 180)
@@ -6295,28 +6001,6 @@
 		(uuid "db051bb7-f894-4463-ad71-d455c4ea53f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 230.8763 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "X1_CAM_5V"
-		(shape input)
-		(at 252.73 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc096e59-3fcf-412b-8fa0-5bc974a91270")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.2825 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,28 +6045,6 @@
 		(uuid "dfc3ab32-0e4b-49cc-a785-d6fcaad55cbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.8757 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB3M"
-		(shape input)
-		(at 31.75 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e06112c8-2e16-49c8-a40c-ead8047170da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.2061 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6166,7 @@
 	)
 	(global_label "X1_CAM_DM"
 		(shape input)
-		(at 252.73 27.94 180)
+		(at 279.4 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6514,7 +6176,7 @@
 		)
 		(uuid "effa0e21-cd38-4465-8702-edd7d712eec2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.8592 27.94 0)
+			(at 265.5292 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6188,7 @@
 	)
 	(global_label "X1_CAM_DP"
 		(shape input)
-		(at 252.73 30.48 180)
+		(at 279.4 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6536,7 +6198,7 @@
 		)
 		(uuid "f245f97b-6bdb-4c45-9997-cceb0e731557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.0406 30.48 0)
+			(at 265.7106 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,28 +6221,6 @@
 		(uuid "f3199719-db5d-4c6a-9057-e7ac6a40f480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.7161 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP_5V"
-		(shape input)
-		(at 31.75 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f356ea03-4f5b-4f42-b664-1ef8917af09a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6294 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,95 +6271,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:USBLC6-2P6_C2827693")
-		(at 35.56 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1563d4a7-bbea-4b5d-8d99-74c1600e239d")
-		(property "Reference" "D3"
-			(at 35.56 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USBLC6-2P6_C2827693"
-			(at 35.56 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
-			(at 35.56 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2827693"
-			(at 35.56 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "708324e2-b915-4549-886f-441d88c465e8")
-		)
-		(pin "6"
-			(uuid "eb23d808-10ba-424d-9ed2-6ba40b9b7702")
-		)
-		(pin "1"
-			(uuid "4d7e0ede-26cf-4288-9b14-0e293df89d57")
-		)
-		(pin "2"
-			(uuid "8d54d2bb-6ebf-44ac-b4eb-00ebe1d7b992")
-		)
-		(pin "5"
-			(uuid "d38886d9-0f14-4906-860b-333573f1bfd8")
-		)
-		(pin "4"
-			(uuid "f30e0651-aa92-4fb1-92e3-1dd6bb7a5393")
-		)
-		(instances
-			(project "x1plus expansion board"
-				(path "/3583cca4-9208-45d1-9699-3a4cf1f2d2f5"
-					(reference "D3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7876,102 +7427,6 @@
 			(project "x1plus expansion board"
 				(path "/3583cca4-9208-45d1-9699-3a4cf1f2d2f5"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:USB-CON-AF-MH4")
-		(at 24.13 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91c11fa2-7955-4f15-a9d8-51e94f34abe4")
-		(property "Reference" "CN3"
-			(at 24.384 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB-CON-AF-MH4"
-			(at 32.004 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:USB-A-SMD_AF-MH4"
-			(at 24.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_A-FPaste-board-Aparagraph-104-Pins6-3-LCPVinyl6-3-High-temperature_C42593.html"
-			(at 24.13 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C42593"
-			(at 24.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f7f7046-4a40-4f61-8738-42f754117dca")
-		)
-		(pin "SH1"
-			(uuid "5b59b4d4-8edd-45e6-9a9b-cfa5a11a4d98")
-		)
-		(pin "2"
-			(uuid "f7a27180-8d25-4d83-b57b-9d1685c12a1c")
-		)
-		(pin "SH3"
-			(uuid "5f5a8ff3-6c86-4289-b193-c2de995e1cc5")
-		)
-		(pin "SH4"
-			(uuid "a0fcfb79-48f0-4f92-86ab-75c28a5e855f")
-		)
-		(pin "3"
-			(uuid "55cd038a-f8b5-4b17-95d6-4abc41b1ffbb")
-		)
-		(pin "4"
-			(uuid "50ea0ffb-d08c-4eb8-a3ff-0bbf6502f0cd")
-		)
-		(pin "SH2"
-			(uuid "b87a099f-d0f6-4ac5-8860-72619dc227e9")
-		)
-		(instances
-			(project "x1plus expansion board"
-				(path "/3583cca4-9208-45d1-9699-3a4cf1f2d2f5"
-					(reference "CN3")
 					(unit 1)
 				)
 			)
